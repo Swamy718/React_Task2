@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(100deg, #05c2f1,#54f154);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #main {
+    width: 20%;
+    margin: auto;
+  }
+  
+  .grid-container {
+    width: 260px;
+    height: 270px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid black;
+    border-radius: 0px 0px 20px 20px;
+  }
+  
+  .grid-item {
+    text-align: center;
+    display: inline;
+    padding-top: 8px;
+    min-height: 30px;
+  }
+  
+  #div1 {
+    min-height: 150px;
+    border-bottom: 1px solid black;
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgb(60, 7, 158);
+  }
+  
+  h2 {
+    padding-right: 5px;
+    text-align: right;
+  }
+  
